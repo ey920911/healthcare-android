@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HealthCare</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_training">TrainingAcitivity</string>
+
+    <item name="tab_total" type="id"/>
+    <item name="tab_walk" type="id"/>
+    <item name="tab_run" type="id"/>
+    <item name="tab_pushup" type="id"/>
+    <item name="tab_situp" type="id"/>
+
+
+</resources>

@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="300dp"
+    android:minHeight="200dp"
+    android:background="#ffffff"
+    android:alpha="0.8"
+    android:orientation="vertical"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ba281b">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="설정"
+                android:textColor="#ffffff"
+                android:textSize="11sp"/>
+
+            <Button
+                android:id="@+id/title_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cancle_icon_off"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/autoLoginSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="자동 로그인"
+        android:textColor="#ba281b"
+        android:textSize="8sp"
+        android:layout_weight="2"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_margin="10dp"
+        android:id="@+id/training"
+        android:text="어플리케이션을 훈련시키세요!\n
+당신의 운동 습관이 반영됩니다.\n[Click]"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:background="@drawable/button_bg_on"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/reg_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="취소"
+                android:textSize="11sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_bg_off"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="52dp" />
+
+            <Button
+                android:id="@+id/reg_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="변경"
+                android:textSize="11sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_bg_off"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="53dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

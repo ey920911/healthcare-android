@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="C:\Users\박계현\AndroidStudioProjects\HealthCare_Total_V3.9\app\src\main\assets" >
+            <file
+                name="AccClassifier.csv"
+                path="C:\Users\박계현\AndroidStudioProjects\HealthCare_Total_V3.9\app\src\main\assets\AccClassifier.csv" />
+            <file
+                name="GyroClassifier.csv"
+                path="C:\Users\박계현\AndroidStudioProjects\HealthCare_Total_V3.9\app\src\main\assets\GyroClassifier.csv" />
+        </source>
+    </dataSet>
+    <dataSet config="release" >
+        <source path="C:\Users\박계현\AndroidStudioProjects\HealthCare_Total_V3.9\app\src\release\assets" />
+    </dataSet>
+
+</merger>

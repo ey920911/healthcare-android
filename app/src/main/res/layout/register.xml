@@ -1,0 +1,282 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="300dp"
+    android:minHeight="370dp"
+    android:background="#ffffff"
+    android:alpha="0.8"
+    android:orientation="vertical"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ba281b">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="회원가입"
+            android:textColor="#ffffff"
+            android:textSize="11sp"/>
+
+            <Button
+                android:id="@+id/title_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/cancle_icon_off"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        </LinearLayout>
+
+    <example.com.healthcare.RoundedImageView
+        android:id="@+id/image"
+        android:layout_margin="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:src="@drawable/profile_man_image" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/name"
+                android:layout_toStartOf="@+id/name"
+                android:textColor="#242424"
+                android:text="이름"
+                android:textSize="11sp" />
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="202dp"
+                android:imeOptions="actionNext"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/password"
+            android:layout_toStartOf="@+id/password"
+            android:textColor="#242424"
+            android:text="패스워드"
+            android:textSize="11sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="202dp"
+            android:imeOptions="actionNext"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:password="true" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/sex"
+            android:layout_toStartOf="@+id/sex"
+            android:textColor="#242424"
+            android:text="성별"
+            android:textSize="11sp" />
+
+        <RadioGroup
+            android:id="@+id/sex"
+            android:layout_width="202dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:orientation="horizontal"
+            >
+
+            <RadioButton
+                android:id="@+id/man"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Man"
+                android:textSize="11sp"
+                android:drawableBottom="#ba281b"
+                android:textColor="#ba281b"/>
+
+            <RadioButton
+                android:id="@+id/woman"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Woman"
+                android:textSize="11sp"
+                android:drawableBottom="#ba281b"
+                android:textColor="#ba281b"/>
+
+        </RadioGroup>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/age"
+            android:layout_toStartOf="@+id/age"
+            android:textColor="#242424"
+            android:text="나이"
+            android:textSize="11sp" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="202dp"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+           />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/height"
+            android:layout_toStartOf="@+id/height"
+            android:textColor="#242424"
+            android:text="키"
+            android:textSize="11sp" />
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="202dp"
+            android:inputType="number"
+            android:imeOptions="actionNext"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+           />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/weight"
+            android:layout_toStartOf="@+id/weight"
+            android:textColor="#242424"
+            android:text="몸무게"
+            android:textSize="11sp" />
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="202dp"
+            android:imeOptions="actionNext"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+
+           <Button
+               android:id="@+id/reg_cancel"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="취소"
+               android:textSize="11sp"
+               android:textColor="#ffffff"
+               android:background="@drawable/button_bg_off"
+               android:layout_alignParentTop="true"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentStart="true"
+               android:layout_marginLeft="52dp" />
+
+            <Button
+                android:id="@+id/reg_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="확인"
+                android:textSize="11sp"
+                android:textColor="#ffffff"
+                android:background="@drawable/button_bg_off"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="53dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

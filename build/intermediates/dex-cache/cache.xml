@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\박계현\AndroidStudioProjects\HealthCare_Total_V3.9\app\build\intermediates\pre-dexed\debug\json-simple-1.1.1-b51f54f6471bc90b3dba9478a922042883a5e3d0.jar"
+        jar="C:\Users\박계현\AndroidStudioProjects\HealthCare_Total_V3.9\app\libs\json-simple-1.1.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5"/>
+    <item
+        dex="C:\Users\박계현\AndroidStudioProjects\HealthCare_Total_V3.9\app\build\intermediates\pre-dexed\debug\opencsv-2.4-71a17d7b5f2eed46550b4a6d06fbf88f8c03c2cd.jar"
+        jar="C:\Users\박계현\AndroidStudioProjects\HealthCare_Total_V3.9\app\libs\opencsv-2.4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="60597690a065746f9dd950e2e47e5f476b6c7367"/>
+    <item
+        dex="C:\Users\박계현\AndroidStudioProjects\HealthCare_Total_V3.9\app\build\intermediates\pre-dexed\debug\android-support-v4-dcb1bb075bbf4bb54f2366ca7c58ee5f9ec4e063.jar"
+        jar="C:\Users\박계현\AndroidStudioProjects\HealthCare_Total_V3.9\app\libs\android-support-v4.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="bd6479f5dd592790607e0504e66e0f31c2b4d308"/>
+
+</pre-dex-items>
